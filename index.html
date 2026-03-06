@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- for  daizy and tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- fontawosome   -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body class="bg-white">
+     <main    class="rounded-xl  my-20 bg-gray-100 text-clip  mx-auto w-[520px] flex flex-col justify-center items-center">
+        <img  class="w-[100px] my-6  " src="./assets/github-logo.png" alt="">
+        <h1  class="  font-bold  text-2xl">Github Issues  Tracker</h1>
+        <p  class="text-gray-500 pb-8">Sign in to manage your issues</p>
+<fieldset class="fieldset bg-gray-100    border-base-300 rounded-box w-xs border p-4">
+  <legend class="fieldset-legend">Login</legend>
+
+  <label class="label">Username</label>
+  <input  id="input-username" type="text" class="input" placeholder="Enter  Your  Username" />
+
+  <label class="label">Password</label>
+  <input  id="input-password"  type="password" class="input" placeholder=" Enter  Your Password" />
+
+  <button id="login-btn" class="btn btn-primary mt-4">Sign In</button>
+
+  <h2  class="py-8 text-center ">OR</h2>
+  <p class="text-gray-500 text-center py-6">Demo  User</p>
+<h2 class="text-center  "  ><span class="font-bold">Username</span>:admin</h2>
+<h2 class="text-center  " ><span  class="font-bold">Password</span>:admin123</h2>
+</fieldset>
+
+
+     </main>
+     <script src="./script.js/login.js"></script>
+</body>
+</html>

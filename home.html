@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- for  daizy and tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- fontawosome   -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="bg-gray-100">
+    <header>
+        <div class="navbar bg-base-100 shadow-sm">
+  <div class="flex-1">
+    <div  class="flex ">
+        <img class="w-9" src="./assets/github-logo.png" alt="">
+    <h2  class="btn btn-ghost text-xl"> GitHub Issues Tracker</h2>
+    </div>
+  </div>
+  <div class="flex gap-2">
+   <div class="join">
+  <div>
+   <div class="flex">
+     <label class="input validator join-item">
+    
+      <input id="search-input" type="search" placeholder="
+
+      Search" required />
+    </label>
+   
+  <button id="search-input-btn" class="btn btn-primary join-item">Search</button>
+   </div>
+</div>
+  </div>
+</div>
+    </header>
+
+    <section class="flex sm:items-center text-start container  mx-auto border-2 border-green-500 gap-5 py-5 bg-white mt-15">
+      <button id="all-issues-btn" class="btn px-8 py-3">All</button>
+      <button id="open-issues-btn"  class="btn px-8 py-3">Open</button>
+      <button  id="close-issues-btn" class="btn px-8 py-3">Closed</button>
+    </section>
+
+    <section  >
+
+    </section>
+</body>
+</html>
