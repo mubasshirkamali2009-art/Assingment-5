@@ -58,7 +58,7 @@ const loadissuedetail= async(id)=>{
   const displayIsuueDetails=(issue)=>{
 console.log(issue)
 const detailBox=document.getElementById("details-container");
-detailBox.innerHTML="hhi oise  ni"
+detailBox.innerHTML="hello"
 document.getElementById("issue_modal").showModal();
   }
 
