@@ -160,6 +160,9 @@ loadissues()
 
 document.getElementById("search-input-btn").addEventListener("click", 
   ()=>{
+    allbtn.forEach(btn=>{
+    btn.classList.remove("btn-primary")
+})
 const  inputSearch=document.getElementById("search-input");
 const  searchValue=inputSearch.value.trim().toLowerCase();
 console.log(searchValue)
