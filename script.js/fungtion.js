@@ -152,7 +152,7 @@ function displayissues(issues) {
     console.log(issue)
 
     const card = document.createElement("div");
-    card.innerHTML = ` <div   onclick="loadissuedetail(${issue.id})" class="bg-white rounded-2xl h-[300px]  ${issue.status == 'open' ? 'border-t-3 border-green-500' : 'border-t-3 border-red-500'} p-5 w-80 shadow-sm">
+    card.innerHTML = ` <div   onclick="loadissuedetail(${issue.id})" class="  bg-white rounded-2xl h-[300px]  ${issue.status == 'open' ? 'border-t-3 border-green-500' : 'border-t-3 border-red-500'} p-5 w-80 shadow-sm">
     <div class="flex justify-between items-center           mb-3">
       <img class="w-7 h-7" src="${statusbasedimg}" alt="${issue.status}">
       <span class="text-xs font-bold px-3 py-1 rounded-full border  ${issue.priority === 'high' ? 'border-red-300 text-red-500 bg-red-100'
