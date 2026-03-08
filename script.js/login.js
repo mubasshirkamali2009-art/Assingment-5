@@ -10,7 +10,7 @@ document.getElementById("login-btn" ).addEventListener("click",
         const pass=passwordInput.value;
         if(user=='admin' && pass=='admin123'){
             alert('Login success')
-            window.location.assign("home.html");
+            window.location.assign("./home.html");
         }
         else{
             alert("Youre Not Allowed Try Agine");
