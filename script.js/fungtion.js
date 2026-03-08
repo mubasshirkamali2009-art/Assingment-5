@@ -66,7 +66,7 @@ const displayIsuueDetails = (issue) => {
 </div>
 <div>
 
-<p class="text-gray-500"><i class="fa-solid fa-circle w-1 h-1"></i> Opened my ${issue.author} <i class="fa-solid fa-circle w-1 h-1"></i> ${issue.updatedAt}</p>
+<p class="text-gray-500"><i class="fa-solid fa-circle w-1 h-1"></i> Opened my ${issue.author} <i class="fa-solid fa-circle w-1 h-1"></i> ${issue.createdAt}</p>
 </div>
 
 </div>
